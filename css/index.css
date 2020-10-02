@@ -2465,11 +2465,13 @@ video {
 
 
 @media only screen and (max-width: 767px) { 
+
 .howl-z {
     height: auto;
     width: 100%;
     margin-bottom: 32px;
 }
+
 
 .tilk {
     font-size: 1.1em;
@@ -2566,7 +2568,7 @@ video {
     height: auto;
     justify-content: normal;
     align-items: normal;
-    padding: 32px 2rem;
+    padding: 64px 2rem 32px;
     margin: 0 auto;
 }
 

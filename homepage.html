@@ -72,14 +72,10 @@
 
     <div id="slideshow-example" data-component="slideshow">
         <div  class='ds haed-tw' role="list">
-            
-            <img class='slide' src="./image/k.png" alt="">
             <img class="slide" src="./image/im/pizza-delivery-scooter.png" alt="">
-            <img class="slide" src="./image/im/Kraken.png" alt="">
-            <img class='slide' src="./image/online-city-logistics.png" alt="">
+            <img class='slide' src="./image/Online-city-logistics.png" alt="">
             <img class="slide" src="./image/im/crypt.png" alt="">
             <img class='slide' src="./image/Courier-Service.jfif" alt="">
-
         </div>
     </div>
 
@@ -354,7 +350,7 @@
 
 <script>
     
-    var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+var slideshows = document.querySelectorAll('[data-component="slideshow"]');
 slideshows.forEach(initSlideShow);
 
 function initSlideShow(slideshow) {
@@ -374,5 +370,23 @@ function initSlideShow(slideshow) {
 
 	}, time);
 }
+
+
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+} 
+
+function showme() {
+    document.getElementById("drop").classList.toggle("show");
+}
+
+
+function openNav() {
+    if (document.getElementById('myNav').style.display === 'block') {
+        document.getElementById('myNav').style.display = 'none';
+    } else {
+        document.getElementById('myNav').style.display = 'block';
+}
+} 
 
 </script>
