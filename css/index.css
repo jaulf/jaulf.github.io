@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-    
 }
 
 body {
@@ -1936,6 +1935,7 @@ html {
 
 
 .covved {
+    overflow-x: hidden;
     display: flex;
     width: 100%;
     height: 100%;
